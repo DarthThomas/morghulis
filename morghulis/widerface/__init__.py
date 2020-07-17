@@ -179,7 +179,7 @@ class Face(BaseFace):
         pass
 
     def is_valid(self):
-        if self.invalid or self.w <= 0.0 or self.h <= 0.0:
+        if self.w <= 0.0 or self.h <= 0.0:
             return False
         return True
 
